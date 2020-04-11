@@ -16,8 +16,8 @@ public class ContaBancaria {
 	public void imprime() {
 		System.out.println("Número: " + this.getNumero());
 		System.out.println("Saldo: " + this.getSaldo());
-		if(agenciaBancaria != null) {
-			agenciaBancaria.imprime();
+		if(this.getAgenciaBancaria() != null) {
+			this.agenciaBancaria.imprime();
 		}	
 	}
 
